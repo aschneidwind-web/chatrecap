@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+coverage
+
+# Never commit anyone's personal chat export
+*conversations*.json
+sample-export/
+*.zip
+
+# internal founder ops log — not part of the product
+AUTONOMOUS_LOG.md

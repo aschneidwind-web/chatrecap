@@ -1,0 +1,37 @@
+{
+  "name": "chatrecap",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ChatRecap — visualize your ChatGPT export entirely in your browser. Nothing is uploaded.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "og": "node scripts/make-og.mjs",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name chatrecap --commit-dirty=true"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@tailwindcss/vite": "^4.0.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "jsdom": "^28.1.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.0",
+    "wrangler": "^4.105.0"
+  }
+}
