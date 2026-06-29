@@ -142,8 +142,8 @@ export default function Landing({
             happen entirely in your browser tab. Your conversations are never transmitted.
           </li>
           <li>
-            <span className="text-white/85">No account, no cookies for tracking.</span> We only count
-            anonymous page views — never anything from your file.
+            <span className="text-white/85">No account, no tracking cookies, no ad networks.</span>{" "}
+            Nothing from your file is ever read by anything but your own browser.
           </li>
           <li>
             <span className="text-white/85">Open source.</span> The whole thing is on GitHub, so you can
